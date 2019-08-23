@@ -22,29 +22,41 @@ main {
 
 h1 {
   font-family: 'Life Savers', cursive;
-  width: 40%;
-  display: inline-block;
+  display: inline;
+  color: #2B4E80;
+  font-size: 3em;
 }
 
 .box-and-woody {
   display: flex;
   justify-content: space-around;
-  width: auto;
+  width: 80%;
+  height: 60%;
 }
 
 .left {
   background-color: #E6ECF4;
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 60%;
   align-items: center;
   justify-content: space-around;
 }
 
+.form-and-button {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
 .form {
   width: 90%;
+  height: 50%;
   text-align: center;
-  height: 10%;
+  justify-content: flex-start;
+  margin: 10px;
 }
 .get-answer-button {
     background-color: #607AA0;
@@ -53,6 +65,8 @@ h1 {
 
 .clear{
   margin-left: auto;
+  background-color: #D0CDCD;
+  margin-right: 20px;
 }
 
 input {
@@ -62,4 +76,9 @@ input {
 .right {
   display: flex;
   justify-content: center;
+  height: 80%;
+}
+
+.woody {
+  margin-left: 90px;
 }
