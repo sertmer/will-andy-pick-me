@@ -10,59 +10,68 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+/* Main section */
+
 main {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 h1 {
-  font-family: 'Life Savers', cursive;
-  display: inline;
   color: #2B4E80;
+  display: inline;
+  font-family: 'Life Savers', cursive;
   font-size: 3em;
 }
 
+/* Content section - question box and woody */
+
 .box-and-woody {
   display: flex;
+  height: 60%;
   justify-content: space-around;
   width: 80%;
-  height: 60%;
 }
 
+/* left side section */
+
 .left {
+  align-items: center;
   background-color: #E6ECF4;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  align-items: center;
   justify-content: space-around;
+  width: 50%;
 }
 
 .form-and-button {
-  width: 90%;
-  height: 35%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 35%;
   justify-content: space-around;
-}
-.form {
   width: 90%;
+}
+
+.form {
+  font-size: 14px;
   height: 70%;
-  text-align: center;
   justify-content: flex-start;
   margin-bottom: 10px;
-  font-size: 14px;
+  text-align: center;
+  width: 90%;
 }
+
 .get-answer-button {
     background-color: #607AA0;
     color: #ffffff;
 }
 
 .clear{
-  margin-left: auto;
   background-color: #D0CDCD;
+  margin-left: auto;
   margin-right: 20px;
 }
 
@@ -70,10 +79,12 @@ input {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* right section - woody */
+
 .right {
+  height: 60%;
   display: flex;
   justify-content: center;
-  height: 60%;
 }
 
 .woody {

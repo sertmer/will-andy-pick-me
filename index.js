@@ -22,4 +22,11 @@ var message = [
   "My sources say no.",
   "Outlook not so good.",
   "Very doubtful.",
-]
+];
+var getQuestion = document.querySelector('#ask').value;
+var buttonClick = document.querySelector('#get-answer');
+var get8Ball = document.querySelector('#8-ball');
+
+buttonClick.addEventListener('click',function(){
+  get8Ball.innerHTML
+})
